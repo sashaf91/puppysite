@@ -3,7 +3,7 @@ from . import views
 from .views import video
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
-
+"""Url paths for site"""
 urlpatterns = [
     path("", views.home,name = "Home"),
     path("about/", views.about, name = "About"),
